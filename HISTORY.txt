@@ -1,3 +1,13 @@
+2014-04-25 Version 1.0.0
+
+	Parallel object maps are now stored in the Rubyverse instead
+	of the original object so that they can go away when the Rubyverse
+	does. Object#in_rubyverse now calls Rubyverse#rubyversed (which is
+	now responsible for invoking Rubyverse#rubyverse_new to create the
+	new object).
+
+	Accordingly, Object#rubyverse_map is now Rubyverse#rubyverse_map.
+
 2014-04-13 Version 0.0.1
 
 	First release.

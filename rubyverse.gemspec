@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name         = "rubyverse"
-  s.version      = "0.0.1"
-  s.date         = "2014-04-13"
+  s.version      = "1.0.0"
+  s.date         = "2014-04-25"
   s.authors      = ["Brian Katzung"]
   s.email        = ["briank@kappacs.com"]
   s.homepage     = "http://rubygems.org/gems/rubyverse"
